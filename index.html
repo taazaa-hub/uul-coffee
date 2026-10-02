@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Үүл кофе | Шинэхэн татсан кофе, гар хийцийн жигнэмэг</title>
+<meta name="description" content="Үүл кофе: шинэхэн татсан кофе, цай, гар хийцийн жигнэмэг. Өдөр бүр 08:00 – 22:00 цагт нээлттэй.">
+<meta name="theme-color" content="#17302b">
+
+<!-- Facebook / Messenger дээр хуваалцахад харагдах хэсэг -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Үүл кофе">
+<meta property="og:description" content="Өглөө бүр нэг аяга тайван.">
+<meta property="og:image" content="images/hero.jpg">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Үүл кофе",
+  "telephone": "+976-9900-0000",
+  "address": {"@type": "PostalAddress", "streetAddress": "1-р хороо", "addressLocality": "Сүхбаатар дүүрэг", "addressCountry": "MN"},
+  "openingHours": "Mo-Su 08:00-22:00",
+  "servesCuisine": "Coffee"
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Үндсэн хэсэг рүү шилжих</a>
+
+<header class="wrap">
+  <a class="logo" href="#top">Үүл</a>
+  <nav aria-label="Үндсэн цэс">
+    <a href="#menu">Цэс</a>
+    <a href="#about">Бидний тухай</a>
+    <a href="#info">Холбоо барих</a>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="wrap" id="top">
+    <section class="hero">
+      <svg class="cup" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+        <path class="steam" d="M70 70c-10-14 10-22 0-38" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        <path class="steam" d="M100 70c-10-14 10-22 0-38" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        <path class="steam" d="M130 70c-10-14 10-22 0-38" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        <path d="M40 90h120v40a50 50 0 0 1-50 50h-20a50 50 0 0 1-50-50z" fill="#e0a526"/>
+        <path d="M160 100h12a18 18 0 0 1 0 36h-16" fill="none" stroke="#e0a526" stroke-width="9"/>
+        <rect x="30" y="184" width="140" height="8" rx="4" fill="currentColor"/>
+      </svg>
+      <h1>Өглөө бүр нэг аяга тайван.</h1>
+      <p>Шинэхэн татсан кофе, гар хийцийн жигнэмэг. Яарахгүй суугаад ярилцах газар.</p>
+      <a class="btn" href="#menu">Цэс үзэх</a>
+    </section>
+    <figure class="photo hero-photo">
+      <img src="images/hero.jpg" alt="Үүл кофе шопын дотор тал" width="1600" height="800" fetchpriority="high" decoding="async">
+    </figure>
+  </div>
+
+  <section class="menu" id="menu" aria-labelledby="menu-title">
+    <div class="wrap">
+      <h2 id="menu-title">Цэс</h2>
+      <div class="tabs" role="tablist" aria-label="Цэсний ангилал">
+        <button role="tab" id="tab-coffee" aria-selected="true"  aria-controls="list" data-t="coffee">Кофе</button>
+        <button role="tab" id="tab-tea"    aria-selected="false" aria-controls="list" data-t="tea">Цай</button>
+        <button role="tab" id="tab-bake"   aria-selected="false" aria-controls="list" data-t="bake">Жигнэмэг</button>
+      </div>
+      <div class="menu-grid">
+        <ul class="list" id="list" role="tabpanel" aria-live="polite"></ul>
+        <figure class="photo menu-photo">
+          <img id="menu-img" src="images/coffee.jpg" alt="" width="800" height="1000" loading="lazy" decoding="async">
+        </figure>
+      </div>
+      <noscript><p>Цэсийг харахын тулд JavaScript идэвхжүүлнэ үү.</p></noscript>
+    </div>
+  </section>
+
+  <section class="wrap about" id="about" aria-labelledby="about-title">
+    <h2 id="about-title">Бидний тухай</h2>
+    <p>Бид кофегоо өдөр бүр шинээр татаж, жигнэмэгээ өглөө бүр гараар хийдэг. Ажлаа хийх ч, найзтайгаа уулзах ч, зүгээр л нам гүм суух ч боломжтой тайван орчин бүрдүүлсэн.</p>
+  </section>
+
+  <section class="wrap info" id="info" aria-label="Холбоо барих мэдээлэл">
+    <div><h3>Ажлын цаг</h3><p>Даваа – Ням<br>08:00 – 22:00</p></div>
+    <div><h3>Хаяг</h3><address>Сүхбаатар дүүрэг, 1-р хороо</address></div>
+    <div><h3>Утас</h3><p><a href="tel:+97699000000">9900-0000</a></p></div>
+  </section>
+</main>
+
+<footer class="wrap">© 2026 Үүл кофе</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
